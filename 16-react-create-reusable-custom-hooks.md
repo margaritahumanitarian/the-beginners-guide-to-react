@@ -1,4 +1,4 @@
-# 16. Create reusable custom hooks
+# 17. Create reusable custom hooks
 
 ### [📹 Video](https://egghead.io/lessons/react-v2-16-create-reusable-custom-hooks?pl=a-beginners-guide-to-react-v2-6c4d)
 

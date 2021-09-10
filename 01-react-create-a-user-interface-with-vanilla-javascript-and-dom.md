@@ -1,10 +1,26 @@
-# 01. Create a User Interface with Vanilla JavaScript and DOM
+# 02. Create a User Interface with Vanilla JavaScript and DOM
 
 ### [📹 Video](https://egghead.io/lessons/react-v2-01-create-a-user-interface-with-vanilla-javascript-and-dom?pl=a-beginners-guide-to-react-v2-6c4d)
 
 ### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/01-document-create-element?from-embed)
 
-## Notes
+## MHF Notes
+
+Clone https://github.com/kentcdodds/beginners-guide-to-react/
+
+Switch to egghead branch
+
+Copy-paste the command from start into the terminal
+
+Open localhost:3000
+
+Change World to Worlds
+
+See it auto-update in the browser upon save
+
+\(If you have VSCode autosave enabled, move the cursor to the next line to get it to autosave. Then check for the auto-update in your browser.\)
+
+## Egghead Notes
 
 * To create a user interface with JavaScript you will need a place to append your JavaScript DOM \(Document Object Model\) elements. This will be the `root` of our application.
 * Get access to that element using the document's API.

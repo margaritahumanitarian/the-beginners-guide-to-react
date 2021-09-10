@@ -1,4 +1,4 @@
-# 17. Manipulate the DOM with React refs
+# 18. Manipulate the DOM with React refs
 
 ### [📹 Video](https://egghead.io/lessons/react-v2-17-manipulate-the-dom-with-react-refs?pl=a-beginners-guide-to-react-v2-6c4d)
 

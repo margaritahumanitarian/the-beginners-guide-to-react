@@ -1,4 +1,4 @@
-# 11. Use Event Handlers with React
+# 12. Use Event Handlers with React
 
 ### [📹 Video](https://egghead.io/lessons/react-v2-11-use-event-handlers-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
 

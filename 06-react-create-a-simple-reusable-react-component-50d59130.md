@@ -1,4 +1,4 @@
-# 06. Create a Simple Reusable React Component
+# 07. Create a Simple Reusable React Component
 
 ### [📹 Video](https://egghead.io/lessons/react-v2-06-create-a-simple-reusable-react-component?pl=a-beginners-guide-to-react-v2-6c4d)
 

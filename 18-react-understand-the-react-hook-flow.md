@@ -1,18 +1,17 @@
-# 18 Understand the React Hook Flow
+# 19. Understand the React Hook Flow
 
-#### [📹 Video](https://egghead.io/lessons/react-v2-18-understand-the-react-hook-flow?pl=a-beginners-guide-to-react-v2-6c4d)
+### [📹 Video](https://egghead.io/lessons/react-v2-18-understand-the-react-hook-flow?pl=a-beginners-guide-to-react-v2-6c4d)
 
-#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/18-hook-flow?from-embed)
+### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/18-hook-flow?from-embed)
 
 ## Notes
 
-- Understanding the order in which React hooks are called can be really helpful in using React hooks effectively.
-
-- We’ll explore the lifecycle of a function component with hooks with colorful console log statements so we know when one phase starts and when it ends.
+* Understanding the order in which React hooks are called can be really helpful in using React hooks effectively.
+* We’ll explore the lifecycle of a function component with hooks with colorful console log statements so we know when one phase starts and when it ends.
 
 ![](https://res.cloudinary.com/dg3gyk0gu/image/upload/v1591296082/transcript-images/react-understand-the-react-hook-flow-hook-flow.jpg)
 
-```html
+```markup
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -148,10 +147,11 @@
 </body>
 ```
 
-- Understanding all of this is not critical to your success with using React, and most of the time you won’t need to think about this at all, but understanding it can help you at times.
+* Understanding all of this is not critical to your success with using React, and most of the time you won’t need to think about this at all, but understanding it can help you at times.
 
 ## Additional resource
 
-- [A flowchart that explains the new lifecycle of a Hooks component](https://github.com/donavon/hook-flow)
-- [React Hooks: What's going to happen to my tests?](https://kentcdodds.com/blog/react-hooks-whats-going-to-happen-to-my-tests)
-- [Kent's Livestream - React Hooks: Refactor compound components to hooks](https://www.youtube.com/watch?v=415EfGPuhSo)
+* [A flowchart that explains the new lifecycle of a Hooks component](https://github.com/donavon/hook-flow)
+* [React Hooks: What's going to happen to my tests?](https://kentcdodds.com/blog/react-hooks-whats-going-to-happen-to-my-tests)
+* [Kent's Livestream - React Hooks: Refactor compound components to hooks](https://www.youtube.com/watch?v=415EfGPuhSo)
+

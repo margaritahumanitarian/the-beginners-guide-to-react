@@ -1,4 +1,4 @@
-# 10. Style React Components with className and inline Styles
+# 11. Style React Components with className and inline Styles
 
 ### [📹 Video](https://egghead.io/lessons/react-v2-10-style-react-components-with-classname-and-inline-styles?pl=a-beginners-guide-to-react-v2-6c4d)
 

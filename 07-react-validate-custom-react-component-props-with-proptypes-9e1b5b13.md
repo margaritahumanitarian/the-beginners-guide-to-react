@@ -1,4 +1,4 @@
-# 07. Validate Custom React Component Props with PropTypes
+# 08. Validate Custom React Component Props with PropTypes
 
 ### [📹 Video](https://egghead.io/lessons/react-v2-07-validate-custom-react-component-props-with-proptypes?pl=a-beginners-guide-to-react-v2-6c4d)
 

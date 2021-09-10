@@ -1,10 +1,14 @@
-# 05. Render two elements side-by-side with React Fragments
+# 06. Render two elements side-by-side with React Fragments
 
 ### [📹 Video](https://egghead.io/lessons/react-v2-05-render-two-elements-side-by-side-with-react-fragments?pl=a-beginners-guide-to-react-v2-6c4d)
 
 ### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/05-fragements?from-embed)
 
-## Notes
+## MHF Notes
+
+
+
+## Egghead Notes
 
 * In React, you can’t render two React elements side-by-side \(`<span>Hello</span><span>World</span>`\). They have to be wrapped in another element \(like a `<div>`\).
 * This may seem like an odd limitation, but when you think about the fact that JSX is compiled to `React.createElement` calls, it makes sense.
