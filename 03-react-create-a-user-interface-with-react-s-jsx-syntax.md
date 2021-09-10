@@ -6,30 +6,29 @@
 
 ## MHF Notes
 
-Unpkg.com to get any file that’s distributed on npm
+Most of the React community uses JSX to create elements instead of what we just did with React.createElement\(\).
 
-Add console.log\(element\)
+JSX is compiled into JS by Babel. 
 
-$$typeof: Symbol\(react.element\) in the JS console means it’s a legit React element
+Go to [https://babeljs.io/](https://babeljs.io/) and click **Try it out** in the top nav.
 
-Comment out:
-
-```javascript
-// children: 'Hello World',
-```
-
-Add below:
+Then paste this into the left pane:
 
 ```javascript
-    'Hello world', 
-    ', Hi world',
+const element = <div className="container">Hello World</div>
 ```
 
-Include react for creating the elements
+You'll see Babel turns it into this:
 
-React-dom for rendering them to the page
+```javascript
+"use strict";
 
-ReactDOM.render\(element, rootElement\) renders the element to the root dom node
+const element = /*#__PURE__*/React.createElement("div", {
+  className: "container"
+}, "Hello World");
+```
+
+Understanding how JSX is compiled will make you more effective at using JSX!
 
 ## Egghead Notes
 

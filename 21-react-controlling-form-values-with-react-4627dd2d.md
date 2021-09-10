@@ -1,4 +1,4 @@
-# 22. Controlling Form Values with React
+# 21 Controlling Form Values with React
 
 ### [📹 Video](https://egghead.io/lessons/react-v2-21-controlling-form-values-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
 

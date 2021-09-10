@@ -1,17 +1,19 @@
-# 15. Use a lazy initializer with useState
+# 14. Use a lazy initializer with useState
 
-### [📹 Video](https://egghead.io/lessons/react-v2-14-use-a-lazy-initializer-with-usestate?pl=a-beginners-guide-to-react-v2-6c4d)
+#### [📹 Video](https://egghead.io/lessons/react-v2-14-use-a-lazy-initializer-with-usestate?pl=a-beginners-guide-to-react-v2-6c4d)
 
-### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/14-lazy-initialization?from-embed)
+#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/14-lazy-initialization?from-embed)
 
 ## Notes
 
-* Something it's important to recognize is that every time you call the state updater function, that will trigger a re-render of the component that manages that state \(the Greeting component in our example\).
-* This is exactly what we want to have happen, but it can be a problem in some situations and there are some optimizations we can apply for `useState` specifically in the event that it is a problem.
-* In our case, we’re reading into `localStorage` to initialize our state value for the first render of our Greeting component.
-* After that first render, we don’t need to read into localStorage anymore because we’re managing that state in memory now.
+- Something it's important to recognize is that every time you call the state updater function, that will trigger a re-render of the component that manages that state (the Greeting component in our example).
+- This is exactly what we want to have happen, but it can be a problem in some situations and there are some optimizations we can apply for `useState` specifically in the event that it is a problem.
 
-```markup
+- In our case, we’re reading into `localStorage` to initialize our state value for the first render of our Greeting component.
+
+- After that first render, we don’t need to read into localStorage anymore because we’re managing that state in memory now.
+
+```html
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -52,6 +54,5 @@
 
 ## Additional resource
 
-* [Kent's Blog - How to implement useState with useReducer](https://kentcdodds.com/blog/how-to-implement-usestate-with-usereducer)
-* [React Docs - Effects Without Cleanup](https://reactjs.org/docs/hooks-effect.html#effects-without-cleanup)
-
+- [Kent's Blog - How to implement useState with useReducer](https://kentcdodds.com/blog/how-to-implement-usestate-with-usereducer)
+- [React Docs - Effects Without Cleanup](https://reactjs.org/docs/hooks-effect.html#effects-without-cleanup)

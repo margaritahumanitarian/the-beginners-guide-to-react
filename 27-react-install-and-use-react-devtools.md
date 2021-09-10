@@ -1,4 +1,4 @@
-# 28. Install and use React DevTools
+# 27. Install and use React DevTools
 
 ### [📹 Video](https://egghead.io/lessons/egghead-v2-27-install-and-use-react-devtools?pl=a-beginners-guide-to-react-v2-6c4d)
 

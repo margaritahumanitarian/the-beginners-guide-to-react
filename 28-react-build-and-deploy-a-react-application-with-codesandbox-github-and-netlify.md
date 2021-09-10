@@ -1,4 +1,4 @@
-# 29. Build and deploy a React Application with CodeSandbox, GitHub, and Netlify
+# 28. Build and deploy a React Application
 
 ### [📹 Video](https://egghead.io/lessons/egghead-v2-28-build-and-deploy-a-react-application-with-codesandbox-github-and-netlify?pl=a-beginners-guide-to-react-v2-6c4d)
 

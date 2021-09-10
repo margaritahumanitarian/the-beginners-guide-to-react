@@ -1,16 +1,18 @@
-# 23. Using React Error Boundaries to handle errors in React Components
+# 22. Using React Error Boundaries to handle errors in React Components
 
-### [📹 Video](https://egghead.io/lessons/react-v2-22-using-react-error-boundaries-to-handle-errors-in-react-components?pl=a-beginners-guide-to-react-v2-6c4d)
+#### [📹 Video](https://egghead.io/lessons/react-v2-22-using-react-error-boundaries-to-handle-errors-in-react-components?pl=a-beginners-guide-to-react-v2-6c4d)
 
-### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/22-error-boundaries?from-embed)
+#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/22-error-boundaries?from-embed)
 
 ## Notes
 
-* There’s a simple way to handle errors in your application using a special kind of component called an Error Boundary. Unfortunately, there is currently no way to create an Error Boundary component with a function and you have to use a class component instead, but we got another lucky break because there’s a terrific open source library we can use called [react-error-boundary](https://github.com/bvaughn/react-error-boundary).
-* Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed.
-* Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them.
+- There’s a simple way to handle errors in your application using a special kind of component called an Error Boundary. Unfortunately, there is currently no way to create an Error Boundary component with a function and you have to use a class component instead, but we got another lucky break because there’s a terrific open source library we can use called [react-error-boundary](https://github.com/bvaughn/react-error-boundary).
 
-```markup
+- Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed.
+
+- Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them.
+
+```html
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -76,12 +78,11 @@
 </body>
 ```
 
-* The granularity of error boundaries is up to you. You may wrap top-level route components to display a “Something went wrong” message to the user, just like server-side frameworks often handle crashes.
+- The granularity of error boundaries is up to you. You may wrap top-level route components to display a “Something went wrong” message to the user, just like server-side frameworks often handle crashes.
 
 ## Additional resource
 
-* [React Docs - Error Boundaries](https://reactjs.org/docs/error-boundaries.html)
-* [egghead lesson - Handle React Suspense Errors with an Error Boundary](https://egghead.io/lessons/react-handle-react-suspense-errors-with-an-error-boundary)
-* [repo - react-error-boundary](https://github.com/bvaughn/react-error-boundary)
-* [npm - react-error-boundary](https://www.npmjs.com/package/react-error-boundary)
-
+- [React Docs - Error Boundaries](https://reactjs.org/docs/error-boundaries.html)
+- [egghead lesson - Handle React Suspense Errors with an Error Boundary](https://egghead.io/lessons/react-handle-react-suspense-errors-with-an-error-boundary)
+- [repo - react-error-boundary](https://github.com/bvaughn/react-error-boundary)
+- [npm - react-error-boundary](https://www.npmjs.com/package/react-error-boundary)

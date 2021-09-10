@@ -4,7 +4,23 @@
 
 ### [💻Course Repo](https://github.com/kentcdodds/beginners-guide-to-react/tree/egghead)
 
-## Notes
+## MHF Notes
+
+Clone https://github.com/kentcdodds/beginners-guide-to-react/
+
+Switch to egghead branch
+
+Copy-paste the command from start into the terminal
+
+Open localhost:3000
+
+Change World to Worlds
+
+See it auto-update in the browser upon save
+
+\(If you have VSCode autosave enabled, move the cursor to the next line to get it to autosave. Then check for the auto-update in your browser.\)
+
+## Egghead Notes
 
 * No requirements needed when taking this course.
 * Recommend that you watch all of these videos through once without touching the keyboard. Just take notes. Then watch them a second time and follow along and change/break the code and review the bits that you need.

@@ -1,16 +1,16 @@
-# 21. Make Dynamic Forms with React
+# 20. Make Dynamic Forms with React
 
-### [📹 Video](https://egghead.io/lessons/react-v2-20-make-dynamic-forms-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
+#### [📹 Video](https://egghead.io/lessons/react-v2-20-make-dynamic-forms-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
 
-### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/20-dynamic-forms?from-embed)
+#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/20-dynamic-forms?from-embed)
 
 ## Notes
 
-* Often, it can be useful to know what the user’s input is as they’re typing it and use that information to change what is rendered. This can be **good for dynamic search** or filter inputs, or triggering changes when a user checks a checkbox, or a myriad of other use cases.
-* W’re going to **dynamically show an error message** if the user types something invalid so they don’t have to wait until they submit the form to know they’re doing something wrong.
-* To do this we’ll store the input’s value in state and then use that state to derive an error message which will be displayed if there is an error.
+- Often, it can be useful to know what the user’s input is as they’re typing it and use that information to change what is rendered. This can be **good for dynamic search** or filter inputs, or triggering changes when a user checks a checkbox, or a myriad of other use cases.
+- W’re going to **dynamically show an error message** if the user types something invalid so they don’t have to wait until they submit the form to know they’re doing something wrong.
+- To do this we’ll store the input’s value in state and then use that state to derive an error message which will be displayed if there is an error.
 
-```markup
+```html
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -58,7 +58,6 @@
 
 ## Additional resource
 
-* [Blog post - Making dynamic form inputs with React](https://goshakkk.name/array-form-inputs/)
-* [React Docs - Forms](https://reactjs.org/docs/forms.html)
-* [Frontend Masters - Test a Form Component Solution](https://frontendmasters.com/courses/testing-react/test-a-form-component-solution/)
-
+- [Blog post - Making dynamic form inputs with React](https://goshakkk.name/array-form-inputs/)
+- [React Docs - Forms](https://reactjs.org/docs/forms.html)
+- [Frontend Masters - Test a Form Component Solution](https://frontendmasters.com/courses/testing-react/test-a-form-component-solution/)

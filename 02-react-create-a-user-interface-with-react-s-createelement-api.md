@@ -6,13 +6,30 @@
 
 ## MHF Notes
 
-Working with JS-generated DOM elements.
+Unpkg.com to get any file that’s distributed on npm
 
-Get access to the root div
+Add console.log\(element\)
 
-Append a div to it
+$$typeof: Symbol\(react.element\) in the JS console means it’s a legit React element
 
-Put text into it
+Comment out:
+
+```javascript
+// children: 'Hello World',
+```
+
+Add below:
+
+```javascript
+    'Hello world', 
+    ', Hi world',
+```
+
+Include react for creating the elements
+
+React-dom for rendering them to the page
+
+ReactDOM.render\(element, rootElement\) renders the element to the root dom node
 
 ## Egghead Notes
 

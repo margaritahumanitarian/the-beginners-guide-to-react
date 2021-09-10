@@ -1,4 +1,4 @@
-# 27. Handle HTTP Errors with React
+# 26. Handle HTTP Errors with React
 
 ### [📹 Video](https://egghead.io/lessons/react-v2-26-handle-http-errors-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
 

@@ -6,19 +6,13 @@
 
 ## MHF Notes
 
-Clone https://github.com/kentcdodds/beginners-guide-to-react/
+Working with JS-generated DOM elements.
 
-Switch to egghead branch
+Get access to the root div
 
-Copy-paste the command from start into the terminal
+Append a div to it
 
-Open localhost:3000
-
-Change World to Worlds
-
-See it auto-update in the browser upon save
-
-\(If you have VSCode autosave enabled, move the cursor to the next line to get it to autosave. Then check for the auto-update in your browser.\)
+Put text into it
 
 ## Egghead Notes
 

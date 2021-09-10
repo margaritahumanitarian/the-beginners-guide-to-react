@@ -1,4 +1,4 @@
-# 13. Manage state in a React Component with the useState hook
+# 12. Manage state in a React Component with the useState hook
 
 ### [📹 Video](https://egghead.io/lessons/react-v2-12-manage-state-in-a-react-component-with-the-usestate-hook?pl=a-beginners-guide-to-react-v2-6c4d)
 

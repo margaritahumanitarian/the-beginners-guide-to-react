@@ -6,29 +6,7 @@
 
 ## MHF Notes
 
-Most of the React community uses JSX to create elements instead of what we just did with React.createElement\(\).
 
-JSX is compiled into JS by Babel. 
-
-Go to [https://babeljs.io/](https://babeljs.io/) and click **Try it out** in the top nav.
-
-Then paste this into the left pane:
-
-```javascript
-const element = <div className="container">Hello World</div>
-```
-
-You'll see Babel turns it into this:
-
-```javascript
-"use strict";
-
-const element = /*#__PURE__*/React.createElement("div", {
-  className: "container"
-}, "Hello World");
-```
-
-Understanding how JSX is compiled will make you more effective at using JSX!
 
 
 

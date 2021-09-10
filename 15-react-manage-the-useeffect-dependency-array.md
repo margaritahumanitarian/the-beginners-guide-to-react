@@ -1,4 +1,4 @@
-# 16. Manage the useEffect dependency array
+# 15. Manage the useEffect dependency array
 
 ### [📹 Video](https://egghead.io/lessons/react-v2-15-manage-the-useeffect-dependency-array?pl=a-beginners-guide-to-react-v2-6c4d)
 

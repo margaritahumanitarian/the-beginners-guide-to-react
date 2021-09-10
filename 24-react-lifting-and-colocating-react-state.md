@@ -1,4 +1,4 @@
-# 25. Lifting and colocating React State
+# 24. Lifting and colocating React State
 
 ### [📹 Video](https://egghead.io/lessons/react-v2-24-lifting-and-colocating-react-state?pl=a-beginners-guide-to-react-v2-6c4d)
 
