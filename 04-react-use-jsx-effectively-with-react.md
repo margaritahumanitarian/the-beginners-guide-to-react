@@ -1,16 +1,15 @@
 # 04. Use JSX effectively with React
 
-#### [📹 Video](https://egghead.io/lessons/react-v2-04-use-jsx-effectively-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
+### [📹 Video](https://egghead.io/lessons/react-v2-04-use-jsx-effectively-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
 
-#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/04-jsx-tricks?from-embed)
+### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/04-jsx-tricks?from-embed)
 
 ## Notes
 
-- JSX is not an entirely different language, but it is a bit of an extension to the language, so knowing how you would express certain JavaScript things within the JSX syntax is important to using JSX effectively.
+* JSX is not an entirely different language, but it is a bit of an extension to the language, so knowing how you would express certain JavaScript things within the JSX syntax is important to using JSX effectively.
+* To interpolation use `{ }`. Any JavaScript expression inside of the curly braces will be evaluated and passed to the `React.createElement` API. This allows you to be expressive when building out UI's. Example:
 
-- To interpolation use `{ }`. Any JavaScript expression inside of the curly braces will be evaluated and passed to the `React.createElement` API. This allows you to be expressive when building out UI's. Example:
-
-```html
+```markup
 <script type="text/babel">
   const rootElement = document.getElementById('root');
   // declaring variables
@@ -24,7 +23,7 @@
 
 Since this is JSX and not HTML, you can use self-closing tags:
 
-```html
+```markup
 <script type="text/babel">
   const rootElement = document.getElementById('root');
   const children = 'Hello World';
@@ -36,9 +35,9 @@ Since this is JSX and not HTML, you can use self-closing tags:
 </script>
 ```
 
-- The spread operator takes either an array or an object and expands it into its set of items. We can use the spread operator to pass down our props to the `React.createElement` API:
+* The spread operator takes either an array or an object and expands it into its set of items. We can use the spread operator to pass down our props to the `React.createElement` API:
 
-```html
+```markup
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -56,9 +55,10 @@ Since this is JSX and not HTML, you can use self-closing tags:
 </body>
 ```
 
-- You can also add or extended props in a declarative and deterministic way.
+* You can also add or extended props in a declarative and deterministic way.
 
 ## Additional resource
 
-- [Understanding the Spread Operator in JavaScript](https://zendev.com/2018/05/09/understanding-spread-operator-in-javascript.html)
-- [MDN Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+* [Understanding the Spread Operator in JavaScript](https://zendev.com/2018/05/09/understanding-spread-operator-in-javascript.html)
+* [MDN Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+

@@ -1,17 +1,16 @@
 # 24. Lifting and colocating React State
 
-#### [📹 Video](https://egghead.io/lessons/react-v2-24-lifting-and-colocating-react-state?pl=a-beginners-guide-to-react-v2-6c4d)
+### [📹 Video](https://egghead.io/lessons/react-v2-24-lifting-and-colocating-react-state?pl=a-beginners-guide-to-react-v2-6c4d)
 
-#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/24-lifting-and-colocating?from-embed)
+### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/24-lifting-and-colocating?from-embed)
 
 ## Notes
 
-- A **common question** from React beginners is how to share state between two sibling components.
-- **The answer** is to Lift the state which basically amounts to finding the lowest common parent shared between the two components and placing the state management there, and then passing the state and a mechanism for updating that state down into the components that need it.
+* A **common question** from React beginners is how to share state between two sibling components.
+* **The answer** is to Lift the state which basically amounts to finding the lowest common parent shared between the two components and placing the state management there, and then passing the state and a mechanism for updating that state down into the components that need it.
+* As a community we’re pretty good at doing this and it becomes natural over time. One thing that we typically have trouble remembering to do is to **push state back down** \(or colocate state\).
 
-- As a community we’re pretty good at doing this and it becomes natural over time. One thing that we typically have trouble remembering to do is to **push state back down** (or colocate state).
-
-```html
+```markup
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -69,10 +68,9 @@
 </body>
 ```
 
-- Lifting state involves writing more “boilerplate” code than two-way binding approaches, but as a benefit, it takes less work to find and isolate bugs.
+* Lifting state involves writing more “boilerplate” code than two-way binding approaches, but as a benefit, it takes less work to find and isolate bugs.
 
 ## Additional resource
 
-[Kent's Blog - State Colocation will make your React app faster](https://kentcdodds.com/blog/state-colocation-will-make-your-react-app-faster)
-[Kent's Blog - Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
-[React Docs - Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
+[Kent's Blog - State Colocation will make your React app faster](https://kentcdodds.com/blog/state-colocation-will-make-your-react-app-faster) [Kent's Blog - Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react) [React Docs - Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
+

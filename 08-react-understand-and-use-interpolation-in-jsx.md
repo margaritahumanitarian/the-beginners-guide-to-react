@@ -1,16 +1,15 @@
 # 08. Understand and Use Interpolation in JSX
 
-#### [📹 Video](https://egghead.io/lessons/react-v2-08-understand-and-use-interpolation-in-jsx?pl=a-beginners-guide-to-react-v2-6c4d)
+### [📹 Video](https://egghead.io/lessons/react-v2-08-understand-and-use-interpolation-in-jsx?pl=a-beginners-guide-to-react-v2-6c4d)
 
-#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/08-jsx-interpolation?from-embed)
+### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/08-jsx-interpolation?from-embed)
 
 ## Notes
 
-- **Template literals** are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them.
+* **Template literals** are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them.
+* Let’s write a React component that has some conditional logic in it to explore the interpolation characteristics of JSX syntax:
 
-- Let’s write a React component that has some conditional logic in it to explore the interpolation characteristics of JSX syntax:
-
-```html
+```markup
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -45,10 +44,10 @@
 </body>
 ```
 
-- Inside the curly braces, it's _JavaScript land_, but it's limited to only expressions.
-- Interpolation is not unique to React or JavaScript, we also see it in HTML when we use `script` tags or `style` tags.
+* Inside the curly braces, it's _JavaScript land_, but it's limited to only expressions.
+* Interpolation is not unique to React or JavaScript, we also see it in HTML when we use `script` tags or `style` tags.
 
-```html
+```markup
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -82,6 +81,7 @@
 
 ## Additional resource
 
-- [MDN - Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
-- [Conditional (ternary) operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
-- [What is JSX? - Kent's Blog](https://kentcdodds.com/blog/what-is-jsx/)
+* [MDN - Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+* [Conditional \(ternary\) operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+* [What is JSX? - Kent's Blog](https://kentcdodds.com/blog/what-is-jsx/)
+

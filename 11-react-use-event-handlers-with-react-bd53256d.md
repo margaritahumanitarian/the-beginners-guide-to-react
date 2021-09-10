@@ -1,18 +1,16 @@
 # 11. Use Event Handlers with React
 
-#### [📹 Video](https://egghead.io/lessons/react-v2-11-use-event-handlers-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
+### [📹 Video](https://egghead.io/lessons/react-v2-11-use-event-handlers-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
 
-#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/11-event-handlers?from-embed)
+### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/11-event-handlers?from-embed)
 
 ## Notes
 
-- There are a ton of supported events that you can find on the [docs](https://reactjs.org/docs/handling-events.html). Let’s get an introduction to event handlers with React.
+* There are a ton of supported events that you can find on the [docs](https://reactjs.org/docs/handling-events.html). Let’s get an introduction to event handlers with React.
+* We still haven’t gotten to state yet, so we’ve implemented our own little way of managing state and re-rendering our component so we can play around with event handlers.
+* One thing you’ll want to know is that events with React are very similar to working with events in regular DOM.
 
-- We still haven’t gotten to state yet, so we’ve implemented our own little way of managing state and re-rendering our component so we can play around with event handlers.
-
-- One thing you’ll want to know is that events with React are very similar to working with events in regular DOM.
-
-```html
+```markup
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -68,10 +66,11 @@
 </body>
 ```
 
-- React does have an optimization implementation on top of the event system called [SyntheticEvents](https://reactjs.org/docs/events.html), but most of the time you won’t observe any difference with those events from regular DOM events (and you can always get access to the native event using the nativeEvent property).
+* React does have an optimization implementation on top of the event system called [SyntheticEvents](https://reactjs.org/docs/events.html), but most of the time you won’t observe any difference with those events from regular DOM events \(and you can always get access to the native event using the nativeEvent property\).
 
 ## Additional resource
 
-- [React Docs - Handling Events](https://reactjs.org/docs/handling-events.html)
-- [Kent Livestream](https://www.youtube.com/watch?v=WqFlnolg7mo)
-- [React Event Handlers: onClick, onChange ...](https://www.robinwieruch.de/react-event-handler)
+* [React Docs - Handling Events](https://reactjs.org/docs/handling-events.html)
+* [Kent Livestream](https://www.youtube.com/watch?v=WqFlnolg7mo)
+* [React Event Handlers: onClick, onChange ...](https://www.robinwieruch.de/react-event-handler)
+

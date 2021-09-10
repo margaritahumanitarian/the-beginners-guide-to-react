@@ -1,16 +1,16 @@
 # 21 Controlling Form Values with React
 
-#### [📹 Video](https://egghead.io/lessons/react-v2-21-controlling-form-values-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
+### [📹 Video](https://egghead.io/lessons/react-v2-21-controlling-form-values-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
 
-#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/21-controlled-forms?from-embed)
+### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/21-controlled-forms?from-embed)
 
 ## Notes
 
-- There are many situations where you want to **programmatically control the value** of a form field.
-- Maybe you want to set the value of one field based on the user’s interactions with another element. Or maybe you want to change the user’s input as they’re typing it.
-- In this example, we’ll be preventing the user from typing upper case characters into our field by turning our input from an **“Uncontrolled field”** to a **“Controlled field.”**
+* There are many situations where you want to **programmatically control the value** of a form field.
+* Maybe you want to set the value of one field based on the user’s interactions with another element. Or maybe you want to change the user’s input as they’re typing it.
+* In this example, we’ll be preventing the user from typing upper case characters into our field by turning our input from an **“Uncontrolled field”** to a **“Controlled field.”**
 
-```html
+```markup
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -55,5 +55,6 @@
 
 ## Additional resource
 
-- [React Docs - Forms](https://reactjs.org/docs/forms.html)
-- [Frontend Masters - Test a Form Component Solution](https://frontendmasters.com/courses/testing-react/test-a-form-component-solution/)
+* [React Docs - Forms](https://reactjs.org/docs/forms.html)
+* [Frontend Masters - Test a Form Component Solution](https://frontendmasters.com/courses/testing-react/test-a-form-component-solution/)
+

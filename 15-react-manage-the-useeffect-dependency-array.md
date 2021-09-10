@@ -1,16 +1,15 @@
 # 15. Manage the useEffect dependency array
 
-#### [📹 Video](https://egghead.io/lessons/react-v2-15-manage-the-useeffect-dependency-array?pl=a-beginners-guide-to-react-v2-6c4d)
+### [📹 Video](https://egghead.io/lessons/react-v2-15-manage-the-useeffect-dependency-array?pl=a-beginners-guide-to-react-v2-6c4d)
 
-#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/15-effect-deps?from-embed)
+### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/15-effect-deps?from-embed)
 
 ## Notes
 
-- Something that’s really important to know about **React’s useEffect** hook is that it eagerly attempts to synchronize the “state of the world” with the state of your application. That means that your effect callback will run every time your component is rendered.
+* Something that’s really important to know about **React’s useEffect** hook is that it eagerly attempts to synchronize the “state of the world” with the state of your application. That means that your effect callback will run every time your component is rendered.
+* Our effect callback is getting called more than it needs to be. **Solution**, add a dependency array so it is updated only when the state it relies on changes.
 
-- Our effect callback is getting called more than it needs to be. **Solution**, add a dependency array so it is updated only when the state it relies on changes.
-
-```html
+```markup
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -71,7 +70,8 @@
 
 ## Additional resource
 
-- [Kent's Blog - 5 Tips to Help You Avoid React Hooks Pitfalls](https://kentcdodds.com/blog/react-hooks-pitfalls)
-- [egghead.io - Handle Deep Object Comparison in React's useEffect hook with the useRef Hook](https://egghead.io/lessons/react-handle-deep-object-comparison-in-react-s-useeffect-hook-with-the-useref-hook)
-- [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
-- [React Docs - ESLint Plugin](https://reactjs.org/docs/hooks-rules.html#explanation)
+* [Kent's Blog - 5 Tips to Help You Avoid React Hooks Pitfalls](https://kentcdodds.com/blog/react-hooks-pitfalls)
+* [egghead.io - Handle Deep Object Comparison in React's useEffect hook with the useRef Hook](https://egghead.io/lessons/react-handle-deep-object-comparison-in-react-s-useeffect-hook-with-the-useref-hook)
+* [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+* [React Docs - ESLint Plugin](https://reactjs.org/docs/hooks-rules.html#explanation)
+

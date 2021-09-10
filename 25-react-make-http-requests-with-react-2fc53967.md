@@ -1,17 +1,16 @@
 # 25. Make HTTP Requests with React
 
-#### [📹 Video](https://egghead.io/lessons/react-v2-25-make-http-requests-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
+### [📹 Video](https://egghead.io/lessons/react-v2-25-make-http-requests-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
 
-#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/25-http?from-embed)
+### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/25-http?from-embed)
 
 ## Notes
 
-- Most useful React applications involve interacting with a server to load and persist data. To do this on the web, we use **HTTP requests** with the browser’s built-in fetch API.
-- HTTP requests like this are inherently asynchronous in nature and **they’re also side-effects** so we’ll need to manage not only starting the request, but also what we should show the user while the request is “in flight.”
+* Most useful React applications involve interacting with a server to load and persist data. To do this on the web, we use **HTTP requests** with the browser’s built-in fetch API.
+* HTTP requests like this are inherently asynchronous in nature and **they’re also side-effects** so we’ll need to manage not only starting the request, but also what we should show the user while the request is “in flight.”
+* In this lesson we’ll use a public **GraphQL server**that serves up pokemon data to load information for a given pokemon name. We’ll learn how to fetch that data inside a React.useEffect callback and display the results when the request completes.
 
-- In this lesson we’ll use a public **GraphQL server**that serves up pokemon data to load information for a given pokemon name. We’ll learn how to fetch that data inside a React.useEffect callback and display the results when the request completes.
-
-```html
+```markup
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -113,7 +112,8 @@
 
 ## Additional resource
 
-- [egghead courses - GraphQL](https://egghead.io/browse/tools/graphql)
-- [React Docs - AJAX and APIs](https://reactjs.org/docs/faq-ajax.html)
-- [Kent's Livestream - Testing axios](https://www.youtube.com/watch?v=YJKtzS1jGsI)
-- [MDN - An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+* [egghead courses - GraphQL](https://egghead.io/browse/tools/graphql)
+* [React Docs - AJAX and APIs](https://reactjs.org/docs/faq-ajax.html)
+* [Kent's Livestream - Testing axios](https://www.youtube.com/watch?v=YJKtzS1jGsI)
+* [MDN - An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+

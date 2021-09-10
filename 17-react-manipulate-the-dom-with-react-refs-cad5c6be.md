@@ -1,16 +1,16 @@
 # 17. Manipulate the DOM with React refs
 
-#### [📹 Video](https://egghead.io/lessons/react-v2-17-manipulate-the-dom-with-react-refs?pl=a-beginners-guide-to-react-v2-6c4d)
+### [📹 Video](https://egghead.io/lessons/react-v2-17-manipulate-the-dom-with-react-refs?pl=a-beginners-guide-to-react-v2-6c4d)
 
-#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/17-dom-refs?from-embed)
+### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/17-dom-refs?from-embed)
 
 ## Notes
 
-- React is really good at creating and updating DOM elements, but sometimes you need to work with them yourself.
-- A common use case for this is when you’re using a third party library that wasn’t built for or with React specifically.
-- To do this, we need to have some value that’s associated with our component (like state) to store a reference to the DOM element, but doesn’t trigger re-renders when it’s updated (unlike state). React has something specifically for this and it’s called a ref.
+* React is really good at creating and updating DOM elements, but sometimes you need to work with them yourself.
+* A common use case for this is when you’re using a third party library that wasn’t built for or with React specifically.
+* To do this, we need to have some value that’s associated with our component \(like state\) to store a reference to the DOM element, but doesn’t trigger re-renders when it’s updated \(unlike state\). React has something specifically for this and it’s called a ref.
 
-```html
+```markup
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -118,11 +118,12 @@
 </body>
 ```
 
-- You create a **ref object with the useRef hook** and that object’s current property is the current value of the ref.
-- It can be anything, but if you pass that `ref object` to a component as a prop called `ref`, then React will set the current property to the DOM element it creates so you can reference it and manipulate it in your useEffect hook.
+* You create a **ref object with the useRef hook** and that object’s current property is the current value of the ref.
+* It can be anything, but if you pass that `ref object` to a component as a prop called `ref`, then React will set the current property to the DOM element it creates so you can reference it and manipulate it in your useEffect hook.
 
 ## Additional resource
 
-- [Kent's egghead course - Simplify React Apps with React Hooks](https://egghead.io/courses/simplify-react-apps-with-react-hooks)
-- [React Hooks - useRef](https://reactjs.org/docs/hooks-reference.html#useref)
-- [Manipulating DOM Elements With React Hook useRef()](https://dev.to/spukas/manipulating-dom-elements-with-react-hook-useref-446c)
+* [Kent's egghead course - Simplify React Apps with React Hooks](https://egghead.io/courses/simplify-react-apps-with-react-hooks)
+* [React Hooks - useRef](https://reactjs.org/docs/hooks-reference.html#useref)
+* [Manipulating DOM Elements With React Hook useRef\(\)](https://dev.to/spukas/manipulating-dom-elements-with-react-hook-useref-446c)
+

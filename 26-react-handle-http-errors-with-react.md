@@ -1,15 +1,15 @@
 # 26. Handle HTTP Errors with React
 
-#### [📹 Video](https://egghead.io/lessons/react-v2-26-handle-http-errors-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
+### [📹 Video](https://egghead.io/lessons/react-v2-26-handle-http-errors-with-react?pl=a-beginners-guide-to-react-v2-6c4d)
 
-#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/26-http-errors?from-embed)
+### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/26-http-errors?from-embed)
 
 ## Notes
 
-- Unfortunately, sometimes a server request fails and we need to display a helpful error message to the user.
-- We’ll handle a promise rejection so we can collect that error information, and we’ll also learn how we can best display manage the state of our request so we have a deterministic render method to ensure we always show the user the proper information based on the current state of our React component.
+* Unfortunately, sometimes a server request fails and we need to display a helpful error message to the user.
+* We’ll handle a promise rejection so we can collect that error information, and we’ll also learn how we can best display manage the state of our request so we have a deterministic render method to ensure we always show the user the proper information based on the current state of our React component.
 
-```html
+```markup
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -126,6 +126,7 @@
 
 ## Additional resource
 
-- [ROBIN WIERUCH - How to fetch data with React Hooks?](https://www.robinwieruch.de/react-hooks-fetch-data)
-- [Kent's Blog - How to use React Context effectively](https://kentcdodds.com/blog/how-to-use-react-context-effectively)
-- [repo - react-error-boundary](https://github.com/bvaughn/react-error-boundary)
+* [ROBIN WIERUCH - How to fetch data with React Hooks?](https://www.robinwieruch.de/react-hooks-fetch-data)
+* [Kent's Blog - How to use React Context effectively](https://kentcdodds.com/blog/how-to-use-react-context-effectively)
+* [repo - react-error-boundary](https://github.com/bvaughn/react-error-boundary)
+

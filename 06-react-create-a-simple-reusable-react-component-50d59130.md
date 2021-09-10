@@ -1,15 +1,15 @@
 # 06. Create a Simple Reusable React Component
 
-#### [📹 Video](https://egghead.io/lessons/react-v2-06-create-a-simple-reusable-react-component?pl=a-beginners-guide-to-react-v2-6c4d)
+### [📹 Video](https://egghead.io/lessons/react-v2-06-create-a-simple-reusable-react-component?pl=a-beginners-guide-to-react-v2-6c4d)
 
-#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/06-custom-component?from-embed)
+### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/06-custom-component?from-embed)
 
 ## Notes
 
-- One of the biggest paradigm shifts that React offered to the UI ecosystem was the component model.
-- Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
+* One of the biggest paradigm shifts that React offered to the UI ecosystem was the component model.
+* Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
 
-```html
+```markup
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -34,9 +34,9 @@
 </body>
 ```
 
-- **Rendering** a Component:
+* **Rendering** a Component:
 
-```js
+```javascript
 //  capitalized to ensure that babel passes the function rather than the string message
 const element = (
   <div className="container">
@@ -48,4 +48,5 @@ const element = (
 
 ## Additional resource
 
-- [React doc - Components and Props](https://reactjs.org/docs/components-and-props.html)
+* [React doc - Components and Props](https://reactjs.org/docs/components-and-props.html)
+

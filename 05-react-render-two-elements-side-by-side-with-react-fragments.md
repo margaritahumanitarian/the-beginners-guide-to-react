@@ -1,18 +1,17 @@
 # 05. Render two elements side-by-side with React Fragments
 
-#### [📹 Video](https://egghead.io/lessons/react-v2-05-render-two-elements-side-by-side-with-react-fragments?pl=a-beginners-guide-to-react-v2-6c4d)
+### [📹 Video](https://egghead.io/lessons/react-v2-05-render-two-elements-side-by-side-with-react-fragments?pl=a-beginners-guide-to-react-v2-6c4d)
 
-#### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/05-fragements?from-embed)
+### [💻 CodeSandbox](https://codesandbox.io/s/github/kentcdodds/beginners-guide-to-react/tree/codesandbox/05-fragements?from-embed)
 
 ## Notes
 
-- In React, you can’t render two React elements side-by-side (`<span>Hello</span><span>World</span>`). They have to be wrapped in another element (like a `<div>`).
-- This may seem like an odd limitation, but when you think about the fact that JSX is compiled to `React.createElement` calls, it makes sense.
-- [React Fragments](https://reactjs.org/docs/fragments.html) let you group a list of children without adding extra nodes to the DOM.
+* In React, you can’t render two React elements side-by-side \(`<span>Hello</span><span>World</span>`\). They have to be wrapped in another element \(like a `<div>`\).
+* This may seem like an odd limitation, but when you think about the fact that JSX is compiled to `React.createElement` calls, it makes sense.
+* [React Fragments](https://reactjs.org/docs/fragments.html) let you group a list of children without adding extra nodes to the DOM.
+* Using the **React Fragments API**:
 
-- Using the **React Fragments API**:
-
-```html
+```markup
 <body>
   <div id="root"></div>
   <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
@@ -33,9 +32,9 @@
 </body>
 ```
 
-- You can also use a **React Fragments Element**:
+* You can also use a **React Fragments Element**:
 
-```js
+```javascript
 const element = (
   <React.Fragment>
     <span>Hello</span>
@@ -44,9 +43,9 @@ const element = (
 );
 ```
 
-- Since React Fragments is so common, JSX has a **special syntax** for it:
+* Since React Fragments is so common, JSX has a **special syntax** for it:
 
-```js
+```javascript
 const element = (
   // open and closing angle brackets
   <>
@@ -58,4 +57,5 @@ const element = (
 
 ## Additional resource
 
-- [React doc- Fragments](https://reactjs.org/docs/fragments.html)
+* [React doc- Fragments](https://reactjs.org/docs/fragments.html)
+
